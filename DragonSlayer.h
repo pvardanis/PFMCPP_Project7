@@ -1,6 +1,6 @@
 #pragma once
 #include "Character.h"
-#include "Utility.h"
+#include "Utility.h" FIXME you're not using Utility functions in this file. 
 #include "AttackItem.h"
 
 struct DragonSlayer : Character

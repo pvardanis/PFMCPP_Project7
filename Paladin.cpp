@@ -19,3 +19,4 @@ std::string Paladin::getStats()
 {
     return getCharacterStats(this);
 }
+g
