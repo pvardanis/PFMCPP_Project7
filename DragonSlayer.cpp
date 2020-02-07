@@ -1,7 +1,7 @@
 #include "DragonSlayer.h"
 #include "Dragon.h"
 #include <cassert>
-#include <stdlib.h>  
+#include <stdlib.h>
 
 DragonSlayer::DragonSlayer(std::string name_, int hp_, int armor_) : 
 Character(hp_, armor_, 4),
