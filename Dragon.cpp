@@ -1,5 +1,6 @@
 #include "Dragon.h"
 #include "DragonSlayer.h"
+#include "Utility.h" // I need this for line 31
 
 Dragon::Dragon(std::string name_, int hp_, int armor_) : 
 Character(hp_, armor_, 80),

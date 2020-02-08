@@ -3,7 +3,6 @@
 #include "HelpfulItem.h"
 #include "DefensiveItem.h"
 #include "Character.h"
-#include "cassert"
 
 #include "Dwarf.h"
 #include "Paladin.h"
