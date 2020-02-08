@@ -1,12 +1,9 @@
 #include "DefensiveItem.h"
-#include "Dwarf.h"
-#include "Paladin.h"
-#include "DragonSlayer.h"
-#include "Dragon.h"
-#include <assert>
+#include "Utility.h"
+#include "Character.h"
 
 void DefensiveItem::use(Character* character)
 {
-    assert(false); 
-    //make your defensive item use the appropriate Utility helper functions
+    std::cout << character->getName() << " uses his defensive item!" << std::endl;
+    useDefensiveItem(character, *this);
 }
